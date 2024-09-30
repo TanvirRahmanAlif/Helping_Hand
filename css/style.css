@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Old Standard TT", serif;
+}
+
+/* Button Back To Top */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 100;
+}
+
+#btn-back-to-top i {
+    color: #000000;
+    font-size: 50px;
+    transition: all .3s ease-in-out;
+}
+
+#btn-back-to-top i:hover {
+    color: #E9000D;
+    box-shadow: 0px 0px 30px #5B0145;
+    border-radius: 50%;
+}
+
+/* Heading Section Start */
+/* NavBar CSS */
+.nav-color {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
+
+.stiky-nav {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(91, 1, 69, .6);
+    height: 50px;
+}
+
+.nav-color ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    transition: all .3s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #E9000D;
+}
+
+/* Banner Section */
+.banner-section {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(../img/banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banner-content h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.banner-content a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4F013C;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 80%;
+    top: 80%;
+}
+
+/* Header Section End */
+
+/* Main Section Start */
+#tutorial,
+#cdn,
+#tools {
+    padding: 30px 0px;
+}
+
+#framework,
+#icon,
+#images {
+    padding: 30px 0px;
+    background-color: #F7F7F7;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #4F013C;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #5B0145;
+}
+
+.framework-list,
+.icon-list,
+.images-list {
+    text-align: right;
+}
+
+.tutorial-list ul,
+.framework-list ul,
+.cdn-list ul,
+.icon-list ul,
+.tools-list ul,
+.images-list ul {
+    list-style: none;
+}
+
+.tutorial-list ul li,
+.framework-list ul li,
+.cdn-list ul li,
+.icon-list ul li,
+.tools-list ul li,
+.images-list ul li {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.tutorial-list ul li a,
+.framework-list ul li a,
+.cdn-list ul li a,
+.icon-list ul li a,
+.tools-list ul li a,
+.images-list ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.tutorial-list ul li a:hover,
+.framework-list ul li a:hover,
+.cdn-list ul li a:hover,
+.icon-list ul li a:hover,
+.tools-list ul li a:hover,
+.images-list ul li a:hover {
+    color: #E9000D;
+    text-decoration: underline;
+}
+
+/* Main Section End */
+
+/* Footer Section Start */
+.footer-section {
+    background-color: #4f013cbd;
+    padding: 30px 0px 10px 0px;
+}
+
+.footer-left-content a img {
+    margin-bottom: 10px;
+}
+
+.footer-left-content p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-left-content p a:hover {
+    color: #E9000D;
+}
+
+.footer-icon a i {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.fb:hover {
+    color: #0866FF;
+}
+
+.gh:hover {
+    color: #000000;
+}
+
+.ld:hover {
+    color: #0A66C2;
+}
+
+.ig:hover {
+    color: #E9000D;
+}
+
+.footer-right-content {
+    text-align: right;
+}
+
+.footer-right-content h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-right-content h4 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer-right-content p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-right-content p a:hover {
+    color: #E9000D;
+}
+
+.footer-end-content {
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-end-content p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+marquee {
+    margin-top: 10px;
+}
+
+#date {
+    margin-right: 5%;
+}
+
+#time {
+    margin-left: 5%;
+}
+
+/* Footer Section End */
