@@ -11,6 +11,19 @@ window.addEventListener("scroll", function () {
     }
 });
 
+// Navbar Collapse Scroll
+let navc = document.querySelector(".navbar-collapse");
+
+window.addEventListener("scroll", function () {
+    let pc = window.scrollY;
+
+    if (pc > 100) {
+        navc.classList.add("nav-c");
+    } else {
+        navc.classList.remove("nav-c");
+    }
+});
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
